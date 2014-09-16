@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rate_limit_proxy/version'
+require './lib/rate_limit_proxy'
 
 Gem::Specification.new do |spec|
   spec.name          = 'rate_limit_proxy'
